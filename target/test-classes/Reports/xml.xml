@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.086267">
+    <testcase classname="To validate fb login" name="To validate with valid datas" time="13.628746">
+        <failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at org.step.step.to_enter_user_and_pass(step.java:52)&#10;&#9;at ✽.to enter user &quot;Yugesh&quot; and pass &quot;882&quot;(file:src/test/resources/Feature/simple.feature:5)&#10;"><![CDATA[Given To enter into login page..............................................passed
+When to enter user "Yugesh" and pass "882"..................................failed
+Then To validate the currecent url page.....................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.step.step.to_enter_user_and_pass(step.java:52)
+	at ✽.to enter user "Yugesh" and pass "882"(file:src/test/resources/Feature/simple.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="To validate fb login" name="To validate with valid datas 2" time="15.457521">
+        <failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at org.step.step.to_enter_user_and_pass(step.java:52)&#10;&#9;at ✽.to enter user &quot;Guru&quot; and pass &quot;928&quot;(file:src/test/resources/Feature/simple.feature:5)&#10;"><![CDATA[Given To enter into login page..............................................passed
+When to enter user "Guru" and pass "928"....................................failed
+Then To validate the currecent url page.....................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.step.step.to_enter_user_and_pass(step.java:52)
+	at ✽.to enter user "Guru" and pass "928"(file:src/test/resources/Feature/simple.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
